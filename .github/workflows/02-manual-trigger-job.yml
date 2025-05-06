@@ -16,10 +16,10 @@ jobs:
       with:
         creds: ${{secrets.AZURE_CREDENTIALS}}
     - name: Print working directory
-      run: pwd
+      run: ls
     - name: Run job
       run: >-
-        az ml job create --file ../../src/model/job.yml 
+        az ml job create --file src/job.yml 
         --resource-group ${{secrets.RESOURCE_GROUP}} 
         --workspace-name ${{secrets.WORKSPACE_NAME}}
 
