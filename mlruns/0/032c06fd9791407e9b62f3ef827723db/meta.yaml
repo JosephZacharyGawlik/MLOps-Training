@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/joez/Desktop/siemens%20IT/MLOps-Training/mlruns/0/032c06fd9791407e9b62f3ef827723db/artifacts
+end_time: 1746463871969
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 032c06fd9791407e9b62f3ef827723db
+run_name: languid-crow-720
+run_uuid: 032c06fd9791407e9b62f3ef827723db
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746463867488
+status: 3
+tags: []
+user_id: joez
