@@ -10,6 +10,6 @@ inputs:
     path: ../experimentation/data
   reg_rate: 0.01
 environment: azureml:AzureML-sklearn-0.24-ubuntu18.04-py37-cpu@latest
-compute: azureml:mlops-training
+compute: azureml:mlops-training-cluster
 experiment_name: diabetes-classification
 description: Diabetes classification model for mlops training
